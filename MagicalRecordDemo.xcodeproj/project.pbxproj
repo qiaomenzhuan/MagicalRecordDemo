@@ -59,10 +59,10 @@
 		9580CD0F20F72CE300C0E97E /* MagicalRecordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordDemoUITests.m; sourceTree = "<group>"; };
 		9580CD1120F72CE300C0E97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9580CD1E20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyMRSqlite.xcdatamodel; sourceTree = "<group>"; };
-		9580CD2220F72FE800C0E97E /* StudyModel+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataProperties.h"; path = "MagicalRecordDemoTests/StudyModel+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
-		9580CD2320F72FE800C0E97E /* StudyModel+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataClass.h"; path = "MagicalRecordDemoTests/StudyModel+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
-		9580CD2420F72FE800C0E97E /* StudyModel+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataClass.m"; path = "MagicalRecordDemoTests/StudyModel+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
-		9580CD2520F72FE800C0E97E /* StudyModel+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataProperties.m"; path = "MagicalRecordDemoTests/StudyModel+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+		9580CD2220F72FE800C0E97E /* StudyModel+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataProperties.h"; path = "MagicalRecordDemo/StudyModel/StudyModel+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		9580CD2320F72FE800C0E97E /* StudyModel+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataClass.h"; path = "MagicalRecordDemo/StudyModel/StudyModel+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
+		9580CD2420F72FE800C0E97E /* StudyModel+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataClass.m"; path = "MagicalRecordDemo/StudyModel/StudyModel+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
+		9580CD2520F72FE800C0E97E /* StudyModel+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataProperties.m"; path = "MagicalRecordDemo/StudyModel/StudyModel+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 				9580CCEC20F72CE100C0E97E /* AppDelegate.m */,
 				9580CCEE20F72CE100C0E97E /* ViewController.h */,
 				9580CCEF20F72CE100C0E97E /* ViewController.m */,
-				9580CD2120F72FA000C0E97E /* StudyModel */,
+				9580CD2820F7396D00C0E97E /* StudyModel */,
 				9580CCF120F72CE100C0E97E /* Main.storyboard */,
 				9580CCF420F72CE200C0E97E /* Assets.xcassets */,
 				9580CCF620F72CE200C0E97E /* LaunchScreen.storyboard */,
@@ -166,7 +166,7 @@
 			path = MagicalRecordDemoUITests;
 			sourceTree = "<group>";
 		};
-		9580CD2120F72FA000C0E97E /* StudyModel */ = {
+		9580CD2820F7396D00C0E97E /* StudyModel */ = {
 			isa = PBXGroup;
 			children = (
 				9580CD2220F72FE800C0E97E /* StudyModel+CoreDataProperties.h */,

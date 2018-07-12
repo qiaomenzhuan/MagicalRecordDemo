@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D0FCF81E6C0252C19FA7D2 /* libPods-MagicalRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DA972FBBFB6B8BB71A1A5 /* libPods-MagicalRecordDemo.a */; };
+		9580CCED20F72CE100C0E97E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CCEC20F72CE100C0E97E /* AppDelegate.m */; };
+		9580CCF020F72CE100C0E97E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CCEF20F72CE100C0E97E /* ViewController.m */; };
+		9580CCF320F72CE100C0E97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9580CCF120F72CE100C0E97E /* Main.storyboard */; };
+		9580CCF520F72CE200C0E97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9580CCF420F72CE200C0E97E /* Assets.xcassets */; };
+		9580CCF820F72CE200C0E97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9580CCF620F72CE200C0E97E /* LaunchScreen.storyboard */; };
+		9580CCFB20F72CE200C0E97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CCFA20F72CE200C0E97E /* main.m */; };
+		9580CD0520F72CE300C0E97E /* MagicalRecordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CD0420F72CE300C0E97E /* MagicalRecordDemoTests.m */; };
+		9580CD1020F72CE300C0E97E /* MagicalRecordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CD0F20F72CE300C0E97E /* MagicalRecordDemoUITests.m */; };
+		9580CD1F20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9580CD1D20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodeld */; };
+		9580CD2620F72FE800C0E97E /* StudyModel+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CD2420F72FE800C0E97E /* StudyModel+CoreDataClass.m */; };
+		9580CD2720F72FE800C0E97E /* StudyModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9580CD2520F72FE800C0E97E /* StudyModel+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9580CD0120F72CE300C0E97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9580CCE020F72CE100C0E97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9580CCE720F72CE100C0E97E;
+			remoteInfo = MagicalRecordDemo;
+		};
+		9580CD0C20F72CE300C0E97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9580CCE020F72CE100C0E97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9580CCE720F72CE100C0E97E;
+			remoteInfo = MagicalRecordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0000D7A166CD3C8104E02BC3 /* Pods-MagicalRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0B4DA972FBBFB6B8BB71A1A5 /* libPods-MagicalRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicalRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE617FCE89A54B94CE0E92E /* Pods-MagicalRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9580CCE820F72CE100C0E97E /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9580CCEB20F72CE100C0E97E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9580CCEC20F72CE100C0E97E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9580CCEE20F72CE100C0E97E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9580CCEF20F72CE100C0E97E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9580CCF220F72CE100C0E97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9580CCF420F72CE200C0E97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9580CCF720F72CE200C0E97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9580CCF920F72CE200C0E97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9580CCFA20F72CE200C0E97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9580CD0020F72CE300C0E97E /* MagicalRecordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9580CD0420F72CE300C0E97E /* MagicalRecordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordDemoTests.m; sourceTree = "<group>"; };
+		9580CD0620F72CE300C0E97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9580CD0B20F72CE300C0E97E /* MagicalRecordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9580CD0F20F72CE300C0E97E /* MagicalRecordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordDemoUITests.m; sourceTree = "<group>"; };
+		9580CD1120F72CE300C0E97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9580CD1E20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyMRSqlite.xcdatamodel; sourceTree = "<group>"; };
+		9580CD2220F72FE800C0E97E /* StudyModel+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataProperties.h"; path = "MagicalRecordDemoTests/StudyModel+CoreDataProperties.h"; sourceTree = SOURCE_ROOT; };
+		9580CD2320F72FE800C0E97E /* StudyModel+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "StudyModel+CoreDataClass.h"; path = "MagicalRecordDemoTests/StudyModel+CoreDataClass.h"; sourceTree = SOURCE_ROOT; };
+		9580CD2420F72FE800C0E97E /* StudyModel+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataClass.m"; path = "MagicalRecordDemoTests/StudyModel+CoreDataClass.m"; sourceTree = SOURCE_ROOT; };
+		9580CD2520F72FE800C0E97E /* StudyModel+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "StudyModel+CoreDataProperties.m"; path = "MagicalRecordDemoTests/StudyModel+CoreDataProperties.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9580CCE520F72CE100C0E97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D0FCF81E6C0252C19FA7D2 /* libPods-MagicalRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CCFD20F72CE300C0E97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CD0820F72CE300C0E97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F8E50CD553BF625BB60486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B4DA972FBBFB6B8BB71A1A5 /* libPods-MagicalRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58540CB133AAC212FBC3A294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0000D7A166CD3C8104E02BC3 /* Pods-MagicalRecordDemo.debug.xcconfig */,
+				6AE617FCE89A54B94CE0E92E /* Pods-MagicalRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9580CCDF20F72CE100C0E97E = {
+			isa = PBXGroup;
+			children = (
+				9580CCEA20F72CE100C0E97E /* MagicalRecordDemo */,
+				9580CD0320F72CE300C0E97E /* MagicalRecordDemoTests */,
+				9580CD0E20F72CE300C0E97E /* MagicalRecordDemoUITests */,
+				9580CCE920F72CE100C0E97E /* Products */,
+				58540CB133AAC212FBC3A294 /* Pods */,
+				43F8E50CD553BF625BB60486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9580CCE920F72CE100C0E97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9580CCE820F72CE100C0E97E /* MagicalRecordDemo.app */,
+				9580CD0020F72CE300C0E97E /* MagicalRecordDemoTests.xctest */,
+				9580CD0B20F72CE300C0E97E /* MagicalRecordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9580CCEA20F72CE100C0E97E /* MagicalRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9580CCEB20F72CE100C0E97E /* AppDelegate.h */,
+				9580CCEC20F72CE100C0E97E /* AppDelegate.m */,
+				9580CCEE20F72CE100C0E97E /* ViewController.h */,
+				9580CCEF20F72CE100C0E97E /* ViewController.m */,
+				9580CD2120F72FA000C0E97E /* StudyModel */,
+				9580CCF120F72CE100C0E97E /* Main.storyboard */,
+				9580CCF420F72CE200C0E97E /* Assets.xcassets */,
+				9580CCF620F72CE200C0E97E /* LaunchScreen.storyboard */,
+				9580CCF920F72CE200C0E97E /* Info.plist */,
+				9580CCFA20F72CE200C0E97E /* main.m */,
+				9580CD1D20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodeld */,
+			);
+			path = MagicalRecordDemo;
+			sourceTree = "<group>";
+		};
+		9580CD0320F72CE300C0E97E /* MagicalRecordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9580CD0420F72CE300C0E97E /* MagicalRecordDemoTests.m */,
+				9580CD0620F72CE300C0E97E /* Info.plist */,
+			);
+			path = MagicalRecordDemoTests;
+			sourceTree = "<group>";
+		};
+		9580CD0E20F72CE300C0E97E /* MagicalRecordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9580CD0F20F72CE300C0E97E /* MagicalRecordDemoUITests.m */,
+				9580CD1120F72CE300C0E97E /* Info.plist */,
+			);
+			path = MagicalRecordDemoUITests;
+			sourceTree = "<group>";
+		};
+		9580CD2120F72FA000C0E97E /* StudyModel */ = {
+			isa = PBXGroup;
+			children = (
+				9580CD2220F72FE800C0E97E /* StudyModel+CoreDataProperties.h */,
+				9580CD2320F72FE800C0E97E /* StudyModel+CoreDataClass.h */,
+				9580CD2420F72FE800C0E97E /* StudyModel+CoreDataClass.m */,
+				9580CD2520F72FE800C0E97E /* StudyModel+CoreDataProperties.m */,
+			);
+			path = StudyModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9580CCE720F72CE100C0E97E /* MagicalRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9580CD1420F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */;
+			buildPhases = (
+				B01C0AEAB42B305AE86A1AF4 /* [CP] Check Pods Manifest.lock */,
+				9580CCE420F72CE100C0E97E /* Sources */,
+				9580CCE520F72CE100C0E97E /* Frameworks */,
+				9580CCE620F72CE100C0E97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecordDemo;
+			productName = MagicalRecordDemo;
+			productReference = 9580CCE820F72CE100C0E97E /* MagicalRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9580CCFF20F72CE300C0E97E /* MagicalRecordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9580CD1720F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemoTests" */;
+			buildPhases = (
+				9580CCFC20F72CE300C0E97E /* Sources */,
+				9580CCFD20F72CE300C0E97E /* Frameworks */,
+				9580CCFE20F72CE300C0E97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9580CD0220F72CE300C0E97E /* PBXTargetDependency */,
+			);
+			name = MagicalRecordDemoTests;
+			productName = MagicalRecordDemoTests;
+			productReference = 9580CD0020F72CE300C0E97E /* MagicalRecordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9580CD0A20F72CE300C0E97E /* MagicalRecordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9580CD1A20F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemoUITests" */;
+			buildPhases = (
+				9580CD0720F72CE300C0E97E /* Sources */,
+				9580CD0820F72CE300C0E97E /* Frameworks */,
+				9580CD0920F72CE300C0E97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9580CD0D20F72CE300C0E97E /* PBXTargetDependency */,
+			);
+			name = MagicalRecordDemoUITests;
+			productName = MagicalRecordDemoUITests;
+			productReference = 9580CD0B20F72CE300C0E97E /* MagicalRecordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9580CCE020F72CE100C0E97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = csda_Chinadance;
+				TargetAttributes = {
+					9580CCE720F72CE100C0E97E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9580CCFF20F72CE300C0E97E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9580CCE720F72CE100C0E97E;
+					};
+					9580CD0A20F72CE300C0E97E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9580CCE720F72CE100C0E97E;
+					};
+				};
+			};
+			buildConfigurationList = 9580CCE320F72CE100C0E97E /* Build configuration list for PBXProject "MagicalRecordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9580CCDF20F72CE100C0E97E;
+			productRefGroup = 9580CCE920F72CE100C0E97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9580CCE720F72CE100C0E97E /* MagicalRecordDemo */,
+				9580CCFF20F72CE300C0E97E /* MagicalRecordDemoTests */,
+				9580CD0A20F72CE300C0E97E /* MagicalRecordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9580CCE620F72CE100C0E97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9580CCF820F72CE200C0E97E /* LaunchScreen.storyboard in Resources */,
+				9580CCF520F72CE200C0E97E /* Assets.xcassets in Resources */,
+				9580CCF320F72CE100C0E97E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CCFE20F72CE300C0E97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CD0920F72CE300C0E97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B01C0AEAB42B305AE86A1AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalRecordDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9580CCE420F72CE100C0E97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9580CD2620F72FE800C0E97E /* StudyModel+CoreDataClass.m in Sources */,
+				9580CD2720F72FE800C0E97E /* StudyModel+CoreDataProperties.m in Sources */,
+				9580CD1F20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodeld in Sources */,
+				9580CCF020F72CE100C0E97E /* ViewController.m in Sources */,
+				9580CCFB20F72CE200C0E97E /* main.m in Sources */,
+				9580CCED20F72CE100C0E97E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CCFC20F72CE300C0E97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9580CD0520F72CE300C0E97E /* MagicalRecordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9580CD0720F72CE300C0E97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9580CD1020F72CE300C0E97E /* MagicalRecordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9580CD0220F72CE300C0E97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9580CCE720F72CE100C0E97E /* MagicalRecordDemo */;
+			targetProxy = 9580CD0120F72CE300C0E97E /* PBXContainerItemProxy */;
+		};
+		9580CD0D20F72CE300C0E97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9580CCE720F72CE100C0E97E /* MagicalRecordDemo */;
+			targetProxy = 9580CD0C20F72CE300C0E97E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9580CCF120F72CE100C0E97E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9580CCF220F72CE100C0E97E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9580CCF620F72CE200C0E97E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9580CCF720F72CE200C0E97E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9580CD1220F72CE300C0E97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9580CD1320F72CE300C0E97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9580CD1520F72CE300C0E97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0000D7A166CD3C8104E02BC3 /* Pods-MagicalRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9580CD1620F72CE300C0E97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE617FCE89A54B94CE0E92E /* Pods-MagicalRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9580CD1820F72CE300C0E97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalRecordDemo.app/MagicalRecordDemo";
+			};
+			name = Debug;
+		};
+		9580CD1920F72CE300C0E97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalRecordDemo.app/MagicalRecordDemo";
+			};
+			name = Release;
+		};
+		9580CD1B20F72CE300C0E97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicalRecordDemo;
+			};
+			name = Debug;
+		};
+		9580CD1C20F72CE300C0E97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = MagicalRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.MagicalRecordDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicalRecordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9580CCE320F72CE100C0E97E /* Build configuration list for PBXProject "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9580CD1220F72CE300C0E97E /* Debug */,
+				9580CD1320F72CE300C0E97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9580CD1420F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9580CD1520F72CE300C0E97E /* Debug */,
+				9580CD1620F72CE300C0E97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9580CD1720F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9580CD1820F72CE300C0E97E /* Debug */,
+				9580CD1920F72CE300C0E97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9580CD1A20F72CE300C0E97E /* Build configuration list for PBXNativeTarget "MagicalRecordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9580CD1B20F72CE300C0E97E /* Debug */,
+				9580CD1C20F72CE300C0E97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9580CD1D20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9580CD1E20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodel */,
+			);
+			currentVersion = 9580CD1E20F72E6C00C0E97E /* StudyMRSqlite.xcdatamodel */;
+			path = StudyMRSqlite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9580CCE020F72CE100C0E97E /* Project object */;
+}

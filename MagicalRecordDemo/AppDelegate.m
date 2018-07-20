@@ -19,7 +19,12 @@
     
     //名字为MyRunningDataBase.sqlite 可以数据迁移的数据库 相应的还有其他的初始化方法 可以去查看API
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"MyRunningDataBase.sqlite"];
-    NSLog(@"数据库沙盒路径%@",[NSPersistentStore MR_urlForStoreName:@"MyRunningDataBase.sqlite"]);
+    
+    NSString *path = [[NSPersistentStore MR_urlForStoreName:@"MyRunningDataBase.sqlite"] absoluteString];
+    path = [path stringByReplacingOccurrencesOfString:@"%20" withString:@" "];
+    NSLog(@"数据库沙盒路径%@",path);
+    
+    
     return YES;
 }
 
